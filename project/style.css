@@ -76,6 +76,10 @@ h2::after {
     height: 3px;
     background-color: #ff8c00;
 }
+a{
+    text-decoration: none;
+    color: black;
+}
 
 form {
     background-color: #f9f9f9;
