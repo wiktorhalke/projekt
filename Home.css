@@ -1,0 +1,20 @@
+.home {
+    text-align: center;
+  }
+  
+  .home-header {
+    background: url('https://source.unsplash.com/random/1600x900') no-repeat center center/cover;
+    color: #fff;
+    padding: 2rem;
+    margin-bottom: 2rem;
+  }
+  
+  .home-header h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+  }
+  
+  .home-header p {
+    font-size: 1.5rem;
+  }
+  

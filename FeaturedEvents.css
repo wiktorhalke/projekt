@@ -1,0 +1,10 @@
+.featured-events {
+    padding: 2rem;
+    text-align: center;
+  }
+  
+  .featured-events h2 {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    color: #333;
+  }
