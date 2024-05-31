@@ -1,13 +1,18 @@
 import React, { useEffect, useState } from 'react';
-import axios from 'axios';
 
 const Concerts = () => {
   const [concerts, setConcerts] = useState([]);
 
   useEffect(() => {
-    axios.get('http://localhost:5000/api/events/concerts')
+    fetch('http://localhost:5000/api/events/concerts')
       .then(response => {
-        setConcerts(response.data);
+        if (!response.ok) {
+          throw new Error('Network response was not ok');
+        }
+        return response.json();
+      })
+      .then(data => {
+        setConcerts(data);
       })
       .catch(error => {
         console.error('There was an error fetching the concerts!', error);
