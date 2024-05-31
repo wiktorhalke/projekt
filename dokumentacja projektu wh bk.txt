@@ -1,0 +1,41 @@
+Nazwa projektu: Ticket Booking
+Technologie
+Frontend:
+
+-React.js
+-HTML
+-CSS
+-JavaScript
+Backend:
+
+-Node.js
+-Express.js
+-MySQL
+
+Funkcjonalności:
+
+Strona Główna
+Strona główna aplikacji prezentuje użytkownikowi ogólny przegląd dostępnych wydarzeń. Zawiera interaktywną listę wydarzeń, które można przeglądać w oparciu o różne kryteria, takie jak kategoria, data, lokalizacja itp.
+
+Wyświetlanie Wydarzeń
+Aplikacja umożliwia wyświetlanie szczegółowych informacji o poszczególnych wydarzeniach. Użytkownik może zobaczyć nazwę wydarzenia, datę, lokalizację, opis, a także inne istotne informacje. Wydarzenia są prezentowane w atrakcyjny sposób, z możliwością przewijania i sortowania.
+
+Dodawanie Nowych Wydarzeń
+Zarejestrowani użytkownicy mogą dodawać nowe wydarzenia do aplikacji. Proces dodawania wydarzenia jest intuicyjny i przyjazny użytkownikowi. Formularz dodawania wydarzenia zawiera pola na wszystkie istotne informacje, takie jak nazwa, data, lokalizacja, opis, kategoria itp.
+
+Edycja Istniejących Wydarzeń
+Użytkownicy posiadający uprawnienia edycji mogą modyfikować istniejące wydarzenia. Proces edycji umożliwia zmianę dowolnych informacji dotyczących wydarzenia, zapewniając elastyczność i łatwość w zarządzaniu treściami.
+
+Usuwanie Wydarzeń
+Administratorzy mają możliwość usuwania wydarzeń z aplikacji. Proces usuwania jest bezpieczny i wymaga potwierdzenia przed wykonaniem akcji. Usunięte wydarzenia są przechowywane w archiwum i mogą zostać przywrócone w razie potrzeby.
+
+Wyszukiwanie i Filtracja
+Aplikacja oferuje zaawansowane funkcje wyszukiwania i filtrowania, które umożliwiają użytkownikowi szybkie znalezienie interesujących wydarzeń. Użytkownik może wyszukiwać wydarzenia na podstawie różnych kryteriów, takich jak nazwa, data, lokalizacja, kategoria, itp.
+
+Rejestracja i Logowanie
+Aby korzystać z pełnej funkcjonalności aplikacji, użytkownicy mogą się zarejestrować i zalogować. Rejestracja umożliwia dostęp do dodatkowych funkcji, takich jak dodawanie i edycja wydarzeń, zapisywanie ulubionych wydarzeń, itp.
+
+Responsywny Design
+Aplikacja została zaprojektowana w taki sposób, aby działać płynnie na różnych urządzeniach i ekranach. Responsywny design gwarantuje optymalne doświadczenie użytkownika zarówno na komputerach stacjonarnych, jak i urządzeniach mobilnych.
+
+Autorzy: Wiktor Halke, Bartosz Kolaj
