@@ -1,5 +1,9 @@
-const express = require('express');
-const mysql = require('mysql');
-const app = express();
-const port = 5000;
+const mysql = require('mysql')
+const connection = mysql.createConnection({
+    host: 'localhost',
+    user: 'root',
+    password: '',
+    database: 'events_db'
+  });
 
+module.exports = connection

@@ -3,7 +3,7 @@ const express = require('express');
 const router = express.Router();
 
 
-const connection = require('../index.js')
+const connection = require('../db/db.js')
 router.get('/events', async (req, res) => {
   try {
     connection.query("SELECT * FROM events", (err, results) => {
@@ -17,6 +17,7 @@ router.get('/events', async (req, res) => {
     res.status(500).json({ error: err.message });
   }
 });
+
 
 
 module.exports = router;

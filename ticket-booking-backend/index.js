@@ -5,19 +5,19 @@ const authRoutes = require('./routes/auth');
 const eventRoutes = require('./routes/events');
 const mysql = require('mysql')
 
-const connection = mysql.createConnection({
-  host: 'localhost',
-  user: 'root',
-  password: '',
-  database: 'events_db'
-});
-connection.connect()
-const app = express();
-const corsOption = {
-  origin: ["http://localhost:3000/"],
-  credentials: true,
-  methods: ["GET", "POST", "PUT", "DELETE"],
-};
+  const connection = mysql.createConnection({
+    host: 'localhost',
+    user: 'root',
+    password: '',
+    database: 'events_db'
+  });
+  connection.connect()
+  const app = express();
+  const corsOption = {
+    origin: ["http://localhost:3000/"],
+    credentials: true,
+    methods: ["GET", "POST", "PUT", "DELETE"],
+  };
 
 
 app.use(bodyParser.json());

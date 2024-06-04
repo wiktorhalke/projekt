@@ -12,7 +12,10 @@ const Events = ({ category }) => {
         return response.json();
       })
       .then(data => {
-        setEvents(data.filter(event => event.category === category));
+        //data.filter(event => event.category == category
+        setEvents(data)
+        console.log(events);
+        
       })
       .catch(error => {
         console.error('There was an error fetching the events!', error);
