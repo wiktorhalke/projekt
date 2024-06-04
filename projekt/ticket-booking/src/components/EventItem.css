@@ -1,0 +1,32 @@
+.event-item {
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  overflow: hidden;
+  display: flex;
+  margin-bottom: 1rem;
+  transition: transform 0.3s;
+}
+
+.event-item:hover {
+  transform: scale(1.05);
+}
+
+.event-image {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+}
+
+.event-details {
+  padding: 1rem;
+  flex: 1;
+}
+
+.event-details h3 {
+  margin: 0 0 0.5rem;
+}
+
+.event-details p {
+  margin: 0;
+  color: #555;
+}

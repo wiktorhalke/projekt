@@ -1,0 +1,37 @@
+.home {
+    text-align: center;
+  }
+  
+  .home-header {
+    background-image: linear-gradient(to right, rgb(255, 255, 255, 0.2), rgb(255, 255, 255, 0.2)), url("back.jpg");
+    background-size: cover;
+    background-position: center; 
+    color: #fff;
+    padding: 2rem;
+    margin-bottom: 2rem;
+    right: 0%;
+    left: 0%;
+    position: absolute;
+    top: 95px;
+    width: 100%;
+  }
+  
+  .home-header h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+  }
+  
+  .home-header p {
+    font-size: 1.5rem;
+  }
+
+  .home-footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+  }

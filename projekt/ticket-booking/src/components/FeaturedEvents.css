@@ -1,0 +1,42 @@
+.events-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 10px; 
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  padding: 10px; 
+  transition: box-shadow 0.3s ease; 
+}
+
+li:hover {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.6); 
+}
+
+h3 {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 0 0 5px;
+  color: #2c3e50;
+}
+
+p:first-of-type,
+p:nth-of-type(2),
+p:last-of-type {
+  font-size: 14px; 
+  color: #7f8c8d;
+  margin: 0;
+}
